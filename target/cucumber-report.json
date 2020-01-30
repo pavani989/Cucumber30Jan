@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 70795704400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "sales executive logged into the machine",
+            "match": {
+              "location": "StepDef.sales_executive_logged_into_the_machine()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T04:57:14.255Z",
+        "line": 27,
+        "name": "Search a product",
+        "description": "",
+        "id": "pixel-store;search-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 283313300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Larry searches for products in the search field",
+            "match": {
+              "location": "StepDef.larry_searches_for_products_in_the_search_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Head"
+                ]
+              },
+              {
+                "cells": [
+                  "Hand"
+                ]
+              },
+              {
+                "cells": [
+                  "Lap"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepGlue.StepDef.larry_verifies_the_product_availability(StepDef.java:38)\r\n\tat ✽.Larry verifies the product availability(file:demo28jan.feature:32)\r\n",
+              "duration": 2207900,
+              "status": "pending"
+            },
+            "line": 32,
+            "name": "Larry verifies the product availability",
+            "match": {
+              "location": "StepDef.larry_verifies_the_product_availability()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datadriven"
+          }
+        ]
+      }
+    ],
+    "name": "Pixel Store",
+    "description": "",
+    "id": "pixel-store",
+    "keyword": "Feature",
+    "uri": "file:demo28jan.feature",
+    "tags": []
+  }
+]
